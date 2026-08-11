@@ -1,0 +1,23 @@
+{
+  "wavelength": {"value": 689, "unit": "nm", "fixed": true},
+  "optical_chain": [
+    {
+      "stage": 0,
+      "type": "fiber_end",
+      "parameters": {
+        "mfd": {"value": 5, "unit": "µm", "fixed": true},
+        "dz": {"value": 0, "unit": "mm", "fixed": true}
+      },
+      "resultingBeam": {}
+    },
+    {
+      "stage": 1,
+      "type": "lens",
+      "parameters": {
+        "f": {"value": 15.3, "unit": "mm", "fixed": true},
+        "dz": {"unit": "mm", "fixed": true, "expr": "l1_f"}
+      },
+      "resultingBeam": {}
+    }
+  ]
+}
